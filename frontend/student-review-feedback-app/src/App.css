@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a; /* Unique Black Background Color */
+  color: #fff; /* White Text */
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  background-color: #333; /* Dark Gray Box Background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30px;
+}
+
+textarea {
+  width: 420px; /* Default Width */
+  height: 180px;
+  margin: 20px 0;
+  margin-left: 5px;
+  padding: 15px;
+  border: 1px solid #555; /* Dark Gray Border */
+  background-color: #444; /* Dark Gray Textarea Background */
+  color: #fff; /* White Text */
+  font-size: 16px;
+  border-radius: 8px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #888; /* Light Gray Placeholder Text */
+}
+
+button {
+  padding: 12px 20px; /* Moderate Padding */
+  background-color: #3498db; /* Blue Button Background */
+  color: #fff; /* White Button Text */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto; /* Center the button */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker Blue Hover Color */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #3498db; /* Blue Heading Text */
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff; /* White Subheading Text */
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
