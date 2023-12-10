@@ -1,4 +1,3 @@
-// frontend/src/App.js
 import React, { useState } from 'react';
 import './App.css';
 
@@ -36,7 +35,7 @@ function App() {
       setError('');
     } catch (error) {
       console.error('Error during submission:', error);
-      setFeedback({}); // Ensure feedback is an empty object
+      setFeedback({}); 
       setError('Error during submission. Please try again.');
     }
   };
