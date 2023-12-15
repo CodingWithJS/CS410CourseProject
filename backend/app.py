@@ -63,6 +63,7 @@ def analyze_sentiment():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 400
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    
+#Uncomment below lines to run in local
+#if __name__ == '__main__':
+#    app.run(debug=True)
