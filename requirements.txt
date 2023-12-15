@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Gunicorn
+pandas
+scikit-learn
+torch
+torchaudio
+torchvision
+transformers
