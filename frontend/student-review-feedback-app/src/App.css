@@ -20,24 +20,6 @@ body {
   padding: 30px;
 }
 
-textarea {
-  width: 420px; 
-  height: 180px;
-  margin: 20px 0;
-  margin-left: 5px;
-  padding: 15px;
-  border: 1px solid #555; 
-  background-color: #444; 
-  color: #fff; 
-  font-size: 16px;
-  border-radius: 8px;
-  resize: none;
-}
-
-textarea::placeholder {
-  color: #888;
-}
-
 button {
   padding: 12px 20px; 
   background-color: #3498db; 
@@ -49,6 +31,14 @@ button {
   transition: background-color 0.3s ease;
   display: block;
   margin: 0 auto; 
+}
+
+input {
+  padding: 12px 20px; 
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -81,3 +71,41 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+a {
+  padding: 10px 10px; 
+  color: #3498db;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: lightcyan;
+
+}
+a:active {
+  color: lightgreen;
+}
+
+.spinnerContainer {
+  margin: auto;
+  align-items: center;
+}
+
+.spinner {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+
+  left: 0;
+  right: 0
+}
+
+.tag {
+  text-align: center;
+  font-size: 2rem;
+  color: green;
+}
+
