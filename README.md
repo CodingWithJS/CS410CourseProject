@@ -24,3 +24,4 @@ Jeremy - CSV upload, Text Summarization and UI enhancements
 
 Please Note:
 - CSV only supports UTF 8 characters
+- Also the demo has been added as a Demo.mp4 in the root folder
